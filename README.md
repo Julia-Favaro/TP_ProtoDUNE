@@ -6,7 +6,9 @@ This repository contains the analysis for the CERN Summer Student 2025 project w
 Indico webpage of the 2025's program: [https://summerstudent.web.cern.ch/2025](https://summerstudent.web.cern.ch/2025)
 
 ### Description of the project
--indicate the actual idea behind this project
+My study focuses on cosmic rays, which are expected to be the leading high-energy background activity in the Far Detector of the DUNE experiment. In particular, I compare cosmic ray data from the PDHD in both simulation and real data, examining how the properties of Trigger Primitives (TPs) depend on the track angle. By quantifying these variations, the goal is to provide insights that could inform the development of future online trigger strategies for more efficient data storage of the most physically interesting events.
+
+The analysis aims to demonstrate the feasibility of using collection plane TP properties to accurately identify track angles, though estimation of out-of-plane angles may require additional information from induction planes, addressing clustering challenges associated with high-multiplicity, noisy real data.
 
 #### For further information
 - J. Favaro, K. Wawroska Trigger primitive simulation-data comparisons and cosmic data selection in ProtoDUNE Horizontal Drift detector. CERN Report, August 2025. (https://zenodo.org/records/16998968)
