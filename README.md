@@ -9,7 +9,9 @@ Indico webpage of the 2025's program: [https://summerstudent.web.cern.ch/2025](h
 -indicate the actual idea behind this project
 
 #### For further information
--eventual bibliography
+- J. Favaro, K. Wawroska Trigger primitive simulation-data comparisons and cosmic data selection in ProtoDUNE Horizontal Drift detector. CERN Report, August 2025. (https://zenodo.org/records/16998968)
+- K. Wawrowska. DUNE trigger simulation: TPG algorithm performance. Technical Report DUNE-TRIG-2025-08, CERN, August 2025
+- C. Adams et al. Ionization Electron Signal Processing in Single Phase LArTPCs. I. Algorithm Description and Quantitative Evaluation with MicroBooNE Simulation. Journal of Instrumentation, 13(07):P07006, 2018.
 
 ### Repository structure
 
@@ -46,7 +48,7 @@ The repository is organized as follows:
     - matplotlib- plotting
     - pandas- for working with datasets structures
     
-We used the library Uproot to read, write and manipulate the ROOT files without installing ROOT itself.
+We used the library Uproot to read, write, and manipulate the ROOT files without installing ROOT itself.
 
 The analysis can be run by executing the Jupyter notebooks located in the `src/` directory. The notebooks are designed to load data from the `data/` directory. Dataset kindly provided by the PD Far Detector CERN EP group.
 
@@ -54,12 +56,8 @@ The analysis can be run by executing the Jupyter notebooks located in the `src/`
 
 -   **Author**: Julia Favaro
 
-    I am a master's student at the University of Pisa (Italy), specializing in astroparticle physics and data analysis. In July and August 2025, I participated in the CERN Summer Student Program, working with the Neutrino group on the Proto-DUNE project.
--   **Supervisors:** Dr. Klaudia Wawroska, Alessandro Thea, Giovanna Lehmann Miotto (EP-DUNE Department, CERN).
-
-This work was conducted as part of the CERN Summer Student Program 2025. The dataset was kindly provided by the PD Far Detector CERN EP group.
-
-Supervisors: Dr. Klaudia Wawroska, Alessandro Thea, Giovanna Lehmann Miotto (EP-DUNE Department). 
+    I am a master's student at the University of Pisa (Italy), specializing in astroparticle physics and data analysis. In July and August 2025, I participated in the CERN Summer Student Program, working with the Neutrino group on the Proto-DUNE project. The dataset was kindly provided by the PD Far Detector CERN EP group.
+-   **Supervisors:** Dr. Klaudia Wawroska (EP-DUNE Department, CERN). Special thanks to Dr. Alessandro Thea (EP-DUNE Department, CERN). 
   
 ### Project status
 
